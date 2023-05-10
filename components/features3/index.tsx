@@ -21,10 +21,7 @@ export const Features3 = () => {
                   pt: '$20',
                }}
             >
-               <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
-               </Text>
-               <Text h3>Your title here</Text>
+               <Text h3>Infrastructure Documentation/Change Management</Text>
                <Text
                   span
                   css={{
@@ -33,9 +30,9 @@ export const Features3 = () => {
                      textAlign: 'center',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec
+                  Efficiently manage and maintain documentation for your infrastructure with Infrascope&apos;s robust documentation feature. Capture, organize, and access vital information, ensuring clarity, collaboration, and streamlined operations.
+
+
                </Text>
             </Flex>
             <Flex
@@ -52,11 +49,9 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5> Version Control and Change Tracking:</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                           Implement version control and change tracking mechanisms for your infrastructure documentation. Capture and track revisions, updates, and modifications made to documentation over time. Maintain a comprehensive audit trail, enabling accountability, traceability, and easy identification of changes made to infrastructure configurations or procedures.
                            </Text>
                         </Flex>
                      </Flex>
@@ -67,11 +62,9 @@ export const Features3 = () => {
                      <Flex css={{gap: '0.5rem'}}>
                         <BoxIcon />
                         <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
+                           <Text h5>Documentation Collaboration and Review::</Text>
                            <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
+                           Foster collaboration among team members by allowing them to contribute to documentation. Implement review workflows to ensure accuracy and consistency. Facilitate comments, annotations, and version tracking, enabling seamless collaboration and knowledge sharing across teams.
                            </Text>
                         </Flex>
                      </Flex>
@@ -87,36 +80,8 @@ export const Features3 = () => {
                   pt: '$8',
                }}
             >
-               <Card css={{mw: '500px'}}>
-                  <Card.Body>
-                     <Flex css={{gap: '0.5rem'}}>
-                        <BoxIcon />
-                        <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
-                           <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
-                           </Text>
-                        </Flex>
-                     </Flex>
-                  </Card.Body>
-               </Card>
-               <Card css={{mw: '500px'}}>
-                  <Card.Body>
-                     <Flex css={{gap: '0.5rem'}}>
-                        <BoxIcon />
-                        <Flex direction={'column'}>
-                           <Text h5>Your Title</Text>
-                           <Text span>
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl, nec
-                           </Text>
-                        </Flex>
-                     </Flex>
-                  </Card.Body>
-               </Card>
+            
+
             </Flex>
          </Box>
 

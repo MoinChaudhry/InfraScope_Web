@@ -30,9 +30,8 @@ export const Nav = () => {
       >
          <Navbar.Brand>
             <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
-            <AcmeLogo />
-            <Text b color="inherit" hideIn="xs">
-               ACME
+            <Text h3 color="inherit" hideIn="xs">
+               InfraScope.AI
             </Text>
             <Navbar.Content
                hideIn="sm"
@@ -40,7 +39,7 @@ export const Nav = () => {
                   pl: '6rem',
                }}
             >
-               <Dropdown isBordered>
+{/*                <Dropdown isBordered>
                   <Navbar.Item>
                      <Dropdown.Button
                         auto
@@ -75,69 +74,50 @@ export const Nav = () => {
                      }}
                   >
                      <Dropdown.Item
-                        key="autoscaling"
+                        key="visualizing"
                         showFullDescription
-                        description="ACME scales apps to meet user demand, automagically, based on load."
+                        description="Visualize infrastructure relationships for enhanced understanding and informed decision-making."
                         icon={icons.scale}
                      >
-                        Autoscaling
+                        Visualize
                      </Dropdown.Item>
                      <Dropdown.Item
-                        key="usage_metrics"
+                        key="Infrastructure_metrics"
                         showFullDescription
-                        description="Real-time metrics to debug issues. Slow query added? We’ll show you exactly where."
+                        description="Proactively optimize infrastructure resources by identifying performance bottlenecks and taking action"
                         icon={icons.activity}
                      >
-                        Usage Metrics
+                        
+                        Infrastructure Automation
                      </Dropdown.Item>
                      <Dropdown.Item
-                        key="production_ready"
+                        key="Documentation"
                         showFullDescription
-                        description="ACME runs on ACME, join us and others serving requests at web scale."
-                        icon={icons.flash}
-                     >
-                        Production Ready
-                     </Dropdown.Item>
-                     <Dropdown.Item
-                        key="99_uptime"
-                        showFullDescription
-                        description="Applications stay on the grid with high availability and high uptime guarantees."
+                        description="Track changes and revisions to your infrastructure documentation, ensuring a comprehensive audit trail."
                         icon={icons.server}
                      >
-                        +99% Uptime
+                        Documentation
                      </Dropdown.Item>
                      <Dropdown.Item
-                        key="supreme_support"
+                        key="Compliance_Management"
                         showFullDescription
-                        description="Overcome any challenge with a supporting team ready to respond."
+                        description="Efficiently manage and ensure compliance with industry standards and regulations"
                         icon={icons.user}
                      >
-                        +Supreme Support
+                        Compliance Management:
                      </Dropdown.Item>
                   </Dropdown.Menu>
                </Dropdown>
                <Navbar.Link isActive href="#">
-                  Customers
+                  About
                </Navbar.Link>
-               <Navbar.Link href="#">Pricing</Navbar.Link>
-               <Navbar.Link href="#">Company</Navbar.Link>
+               <Navbar.Link href="#">Who Are We?</Navbar.Link>
+               <Navbar.Link href="#">FAQ</Navbar.Link> */}
             </Navbar.Content>
          </Navbar.Brand>
 
          <Navbar.Collapse>
-            {collapseItems.map((item, index) => (
-               <Navbar.CollapseItem key={item}>
-                  <Link
-                     color="inherit"
-                     css={{
-                        minWidth: '100%',
-                     }}
-                     href="#"
-                  >
-                     {item}
-                  </Link>
-               </Navbar.CollapseItem>
-            ))}
+
             <Navbar.CollapseItem>
                <Link
                   color="inherit"
@@ -145,28 +125,13 @@ export const Nav = () => {
                      minWidth: '100%',
                   }}
                   target="_blank"
-                  href="https://github.com/Siumauricio/landing-template-nextui"
+                  href="https://github.com/MoinChaudhry/InfraScope.ai"
                >
                   <GithubIcon />
                </Link>
-            </Navbar.CollapseItem>
-            <Navbar.CollapseItem>
-               <Switch
-                  checked={isDark}
-                  onChange={(e) =>
-                     setTheme(e.target.checked ? 'dark' : 'light')
-                  }
-               />
             </Navbar.CollapseItem>
          </Navbar.Collapse>
          <Navbar.Content>
-            <ModalLogin />
-
-            <Navbar.Item>
-               <Button auto flat href="#">
-                  Start free trial
-               </Button>
-            </Navbar.Item>
             <Navbar.Item hideIn={'xs'}>
                <Link
                   color="inherit"
@@ -174,18 +139,10 @@ export const Nav = () => {
                      minWidth: '100%',
                   }}
                   target="_blank"
-                  href="https://github.com/Siumauricio/landing-template-nextui"
+                  href="https://github.com/MoinChaudhry/InfraScope.ai"
                >
                   <GithubIcon />
                </Link>
-            </Navbar.Item>
-            <Navbar.Item hideIn={'xs'}>
-               <Switch
-                  checked={isDark}
-                  onChange={(e) =>
-                     setTheme(e.target.checked ? 'dark' : 'light')
-                  }
-               />
             </Navbar.Item>
          </Navbar.Content>
       </Navbar>

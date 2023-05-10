@@ -8,6 +8,7 @@ import {Flex} from '../styles/flex';
 export const Features1 = () => {
    return (
       <>
+      < Text h1> Features</Text>
          <Flex
             direction={'column'}
             css={{
@@ -27,10 +28,7 @@ export const Features1 = () => {
             }}
          >
             <Flex direction="column">
-               <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
-               </Text>
-               <Text h3>Your title here</Text>
+               <Text h3>Visualize</Text>
                <Text
                   span
                   css={{
@@ -38,10 +36,7 @@ export const Features1 = () => {
                      color: '$accents8',
                   }}
                >
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
+                  Unleash the power of visualizations to gain a comprehensive and intuitive understanding of your infrastructure,
                </Text>
 
                <Flex
@@ -53,7 +48,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                     Intuitive Visualizations:
                      </Text>
                      <Text
                         span
@@ -62,9 +57,7 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        Immerse yourself in intuitive visual representations of your infrastructure, providing a clear and comprehensive overview of its components, connections, and dependencies. Easily navigate through interactive diagrams and gain a deeper architectural understanding of your infrastructure.,
                      </Text>
                   </Flex>
                </Flex>
@@ -77,7 +70,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                     Interactive Relationship Mapping:
                      </Text>
                      <Text
                         span
@@ -86,9 +79,7 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        Uncover the intricate relationships between different components of your infrastructure through interactive mapping. Visualize how various elements interact and depend on each other, helping you identify potential bottlenecks, points of failure, or areas for optimization.,
                      </Text>
                   </Flex>
                </Flex>
@@ -101,7 +92,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                        Your title here
+                     Real-time Performance Visualization:
                      </Text>
                      <Text
                         span
@@ -110,9 +101,7 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Sed condimentum, nisl ut aliquam lacinia, nisl nisl
-                        aliquet nisl,
+                        Observe real-time performance metrics and visualize them in dynamic charts and graphs. Monitor vital parameters such as CPU usage, memory consumption, network traffic, and storage utilization. Track performance trends, identify anomalies, and make informed decisions to optimize resource allocation and ensure optimal performance.,
                      </Text>
                   </Flex>
                </Flex>

@@ -38,42 +38,41 @@ export const Hero = () => {
                   }}
                >
                   <Text
-                     h1
+                     h2
                      css={{
                         display: 'inline',
                      }}
                   >
-                     The modern landing page{' '}
+                     Transform infrastructure-as-code (IaC) into a visual masterpiece with{' '}
                   </Text>
                   <Text
-                     h1
+                     h2
                      css={{
                         display: 'inline',
                      }}
                   >
-                     for{' '}
+                     {' '}
                   </Text>
                   <Text
-                     h1
+                     h2
                      css={{
                         display: 'inline',
                      }}
                      color="primary"
                   >
-                     React developers
+                     InfraScope.AI
                   </Text>
                </Box>
 
                <Text
                   css={{
                      color: '$accents8',
-                     maxWidth: '400px',
+                     maxWidth: '700px',
                   }}
                   size={'$lg'}
                   span
                >
-                  The easiest way to build React Landing page in seconds. Save
-                  time and focus on your project.
+                  InfraScope.AI: Simplifying infrastructure management with visual and interactive architecture, monitoring, optimization, and informed decision-making.
                </Text>
 
                <Flex
@@ -83,8 +82,7 @@ export const Hero = () => {
                   }}
                   wrap={'wrap'}
                >
-                  <Input placeholder="Enter your email address" size="lg" />
-                  <Button>Start Free Trial</Button>
+  
                </Flex>
                <Flex
                   wrap={'wrap'}
@@ -96,41 +94,19 @@ export const Hero = () => {
                      },
                   }}
                >
-                  <Flex
-                     css={{
-                        color: '$accents7',
-                        alignItems: 'center',
-                     }}
-                  >
-                     <CheckIcon /> No credit card required.
-                  </Flex>
-                  <Flex
-                     css={{
-                        color: '$accents7',
-                        alignItems: 'center',
-                     }}
-                  >
-                     <CheckIcon /> 14-day free trial.
-                  </Flex>
-                  <Flex
-                     css={{
-                        color: '$accents7',
-                        alignItems: 'center',
-                     }}
-                  >
-                     <CheckIcon /> Cancel anytime.
-                  </Flex>
+
+                  
                </Flex>
             </Box>
             <Box
                css={{
                   '& img': {
-                     width: '775px',
+                     width: '975px',
                      objectFit: 'contain',
                   },
                }}
             >
-               <img src="mock.png" />
+               <img src="infrascopeai-high-resolution-logo-white-on-black-background.png" />
             </Box>
          </Flex>
          <Divider
