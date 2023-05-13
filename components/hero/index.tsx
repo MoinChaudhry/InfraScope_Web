@@ -42,8 +42,7 @@ export const Hero = () => {
                      css={{
                         display: 'inline',
                      }}
-                  >
-                     Transform infrastructure-as-code (IaC) into a visual masterpiece with{' '}
+                  > 2Transform infrastructure-as-code (IaC) into a visual masterpiece with{' '}
                   </Text>
                   <Text
                      h2
