@@ -21,7 +21,7 @@ export const Features3 = () => {
                   pt: '$20',
                }}
             >
-               <Text h2>Infrastructure Documentation/Change Management</Text>
+               <Text h2>Infrastructure Documentation</Text>
                <Text
                   span
                   css={{

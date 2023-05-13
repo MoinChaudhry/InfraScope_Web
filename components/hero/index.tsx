@@ -43,7 +43,7 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                     Transform infrastructure-as-code (IaC) into a visual masterpiece with{' '}
+                  Leading the way to AI-Powered infrastructure excellence{' '}
                   </Text>
                   <Text
                      h2
@@ -51,7 +51,7 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                     {' '}
+                     with{' '}
                   </Text>
                   <Text
                      h2
@@ -67,23 +67,15 @@ export const Hero = () => {
                <Text
                   css={{
                      color: '$accents8',
-                     maxWidth: '700px',
+                     maxWidth: '400px',
                   }}
                   size={'$lg'}
                   span
                >
-                  InfraScope.AI: Simplifying infrastructure management with visual and interactive architecture, monitoring, optimization, and informed decision-making.
+                  We are a startup dedicated to enabling and transforming infrastructure management with cutting-edge AI technology. Our mission is to revolutionize the way organizations document, monitor, analyze, and optimize their Cloud and Kubernetes assets.
                </Text>
 
-               <Flex
-                  css={{
-                     gap: '$8',
-                     pt: '$4',
-                  }}
-                  wrap={'wrap'}
-               >
-  
-               </Flex>
+               
                <Flex
                   wrap={'wrap'}
                   css={{
@@ -94,19 +86,17 @@ export const Hero = () => {
                      },
                   }}
                >
-
-                  
                </Flex>
             </Box>
             <Box
                css={{
                   '& img': {
-                     width: '975px',
+                     width: '775px',
                      objectFit: 'contain',
                   },
                }}
             >
-               <img src="infrascopeai-high-resolution-logo-white-on-black-background.png" />
+               <img src="logo-white.png" />
             </Box>
          </Flex>
          <Divider
