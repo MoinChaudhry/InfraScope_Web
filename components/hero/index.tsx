@@ -72,7 +72,9 @@ export const Hero = () => {
                   size={'$lg'}
                   span
                >
-                  InfraScope.AI: Simplifying infrastructure management with visual and interactive architecture, monitoring, optimization, and informed decision-making.
+                  We are a startup dedicated to enabling and transforming infrastructure management with cutting-edge AI technology. Our mission is to revolutionize the way organizations monitor, analyze, and optimize their Cloud and Kubernetes assets.
+
+
                </Text>
 
                <Flex

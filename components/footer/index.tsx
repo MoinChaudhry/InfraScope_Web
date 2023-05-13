@@ -63,27 +63,28 @@ export const Footer = () => {
                >
                   <Text h5>Links</Text>
                   <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
-                     <Box as={'li'}>
+{/*                      <Box as={'li'}>
                         <a href="https://www.linkedin.com/in/moinhc/">
                         <Text span css={{color: '$accents8'}}>
                            About Me
                         </Text>
                         </a>
-                     </Box>
-                     <Box as={'li'}>
+                     </Box> */}
+{/*                      <Box as={'li'}>
                         <a href="https://github.com/MoinChaudhry/InfraScope.ai">
                            <Text span css={{color: '$accents8'}}>
                               Github
                            </Text> 
                         </a>   
-                     </Box>
-                     <Box as={'li'}>
+                     </Box> */}
+{/*                      <Box as={'li'}>
                      <a href={`mailto:${"chaudhrymoinh@infrascopeai.dev"}`}>
                            <Text span css={{color: '$accents8'}}>
                            Email
                         </Text>
                         </a>
-                     </Box>
+                     </Box> */}
+                     
                      <Box as={'li'}>
                      <a href={`mailto:${"chaudhrymoinh@infrascopeai.dev"}`}>
                      <Text span css={{ color: '$accents8', whiteSpace: 'nowrap' }}>
