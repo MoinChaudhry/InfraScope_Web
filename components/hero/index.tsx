@@ -37,7 +37,14 @@ export const Hero = () => {
                      maxWidth: '600px',
                   }}
                >
-           
+                  <Text
+                     h2
+                     css={{
+                        display: 'inline',
+                     }}
+                  >
+                     Transform infrastructure-as-code (IaC) into a visual masterpiece with{' '}
+                  </Text>
                   <Text
                      h2
                      css={{
@@ -53,15 +60,7 @@ export const Hero = () => {
                      }}
                      color="primary"
                   >
-                     InfraScope.AI:{' '}
-                  </Text>   
-                      <Text
-                     h2
-                     css={{
-                        display: 'inline',
-                     }}
-                  >
-                   Leading the Way to AI-Driven Infrastructure Excellence{' '}
+                     InfraScope.AI
                   </Text>
                </Box>
 
@@ -73,9 +72,7 @@ export const Hero = () => {
                   size={'$lg'}
                   span
                >
-                  We are a startup dedicated to enabling and transforming infrastructure management with cutting-edge AI technology. Our mission is to revolutionize the way organizations monitor, analyze, and optimize their Cloud and Kubernetes assets.
-
-
+                  InfraScope.AI: Simplifying infrastructure management with visual and interactive architecture, monitoring, optimization, and informed decision-making.
                </Text>
 
                <Flex
