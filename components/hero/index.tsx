@@ -53,7 +53,7 @@ export const Hero = () => {
                      }}
                      color="primary"
                   >
-                     InfraScope.AI:{' '}
+                     InfraScope.AI:
                   </Text>     
                   <Text
                      h2
@@ -61,7 +61,7 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                     Leading the Way to AI-Driven Infrastructure Excellence{' '}
+                     {' '}Leading the Way to AI-Driven Infrastructure Excellence{' '}
                   </Text>
                </Box>
 
