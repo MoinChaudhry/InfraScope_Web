@@ -42,7 +42,8 @@ export const Hero = () => {
                      css={{
                         display: 'inline',
                      }}
-                  > Transform infrastructure-as-code (IaC) into a visual masterpiece with{' '}
+                  >
+                     Transform infrastructure-as-code (IaC) into a visual masterpiece with{' '}
                   </Text>
                   <Text
                      h2
@@ -100,7 +101,7 @@ export const Hero = () => {
             <Box
                css={{
                   '& img': {
-                     width: '775px',
+                     width: '975px',
                      objectFit: 'contain',
                   },
                }}
