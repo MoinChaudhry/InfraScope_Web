@@ -37,14 +37,7 @@ export const Hero = () => {
                      maxWidth: '600px',
                   }}
                >
-                  <Text
-                     h2
-                     css={{
-                        display: 'inline',
-                     }}
-                  >
-                     Transform infrastructure-as-code (IaC) into a visual masterpiece with{' '}
-                  </Text>
+ 
                   <Text
                      h2
                      css={{
@@ -60,7 +53,15 @@ export const Hero = () => {
                      }}
                      color="primary"
                   >
-                     InfraScope.AI
+                     InfraScope.AI:{' '}
+                  </Text>     
+                  <Text
+                     h2
+                     css={{
+                        display: 'inline',
+                     }}
+                  >
+                     Leading the Way to AI-Driven Infrastructure Excellence{' '}
                   </Text>
                </Box>
 
