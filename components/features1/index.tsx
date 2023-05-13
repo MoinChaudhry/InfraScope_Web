@@ -8,7 +8,6 @@ import {Flex} from '../styles/flex';
 export const Features1 = () => {
    return (
       <>
-      < Text h1> Features</Text>
          <Flex
             direction={'column'}
             css={{
