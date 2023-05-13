@@ -37,7 +37,14 @@ export const Hero = () => {
                      maxWidth: '600px',
                   }}
                >
- 
+                  <Text
+                     h2
+                     css={{
+                        display: 'inline',
+                     }}
+                  >
+                    Leading the Way to AI-Driven Infrastructure Excellence with{' '}
+                  </Text>
                   <Text
                      h2
                      css={{
@@ -53,15 +60,7 @@ export const Hero = () => {
                      }}
                      color="primary"
                   >
-                     InfraScope.AI:
-                  </Text>     
-                  <Text
-                     h2
-                     css={{
-                        display: 'inline',
-                     }}
-                  >
-                     {' '}Leading the Way to AI-Driven Infrastructure Excellence{' '}
+                     InfraScope.AI
                   </Text>
                </Box>
 
