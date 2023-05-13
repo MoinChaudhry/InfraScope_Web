@@ -43,7 +43,7 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                    Leading the Way to AI-Driven Infrastructure Excellence with{' '}
+                     Transform infrastructure-as-code (IaC) into a visual masterpiece with{' '}
                   </Text>
                   <Text
                      h2
@@ -101,7 +101,7 @@ export const Hero = () => {
             <Box
                css={{
                   '& img': {
-                     width: '975px',
+                     width: '775px',
                      objectFit: 'contain',
                   },
                }}
