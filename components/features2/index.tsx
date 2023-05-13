@@ -35,7 +35,7 @@ export const Features2 = () => {
                      color: '$accents8',
                   }}
                >
-                  Harness the transformative capabilities of automation to streamline and optimize your infrastructure management processes. With Infrastructure Automation in Infrascope, eliminate manual tasks, increase efficiency, and enable rapid deployment and scaling of resources,
+                  Harness the transformative capabilities of automation to streamline and optimize your infrastructure management processes. With Infrastructure Automation in Infrascope, eliminate manual tasks, increase efficiency, and enable rapid deployment and scaling of resources.
                </Text>
 
                <Flex
@@ -63,7 +63,7 @@ export const Features2 = () => {
                               color: '$accents8',
                            }}
                         >
-                           Orchestrate complex workflows and automate routine tasks with ease. Define sequences of actions, automate provisioning, configuration, and deployment processes, and ensure consistent and reliable execution. Seamlessly integrate with existing tools and systems, enabling end-to-end automation and reducing human error,
+                           Orchestrate complex workflows and automate routine tasks with ease. Define sequences of actions, automate provisioning, configuration, and deployment processes, and ensure consistent and reliable execution. Seamlessly integrate with existing tools and systems, enabling end-to-end automation and reducing human error.
                         </Text>
                      </Flex>
                   </Flex>
@@ -85,7 +85,7 @@ export const Features2 = () => {
                               color: '$accents8',
                            }}
                         >
-                           Enable self-healing capabilities in your infrastructure by automating the detection and resolution of issues. Monitor system health, detect failures, and automatically trigger remediation actions such as restarting services, rolling back configurations, or spinning up redundant instances. Minimize downtime, improve system resilience, and enhance the overall stability of your infrastructure.,
+                           Enable self-healing capabilities in your infrastructure by automating the detection and resolution of issues. Monitor system health, detect failures, and automatically trigger remediation actions such as restarting services, rolling back configurations, or spinning up redundant instances. Minimize downtime, improve system resilience, and enhance the overall stability of your infrastructure.
                         </Text>
                      </Flex>
                   </Flex>

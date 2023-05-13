@@ -35,7 +35,7 @@ export const Features1 = () => {
                      color: '$accents8',
                   }}
                >
-                  Unleash the power of visualizations to gain a comprehensive and intuitive understanding of your infrastructure,
+                  Unleash the power of visualizations to gain a comprehensive and intuitive understanding of your infrastructure
                </Text>
 
                <Flex
@@ -56,7 +56,7 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Immerse yourself in intuitive visual representations of your infrastructure, providing a clear and comprehensive overview of its components, connections, and dependencies. Easily navigate through interactive diagrams and gain a deeper architectural understanding of your infrastructure.,
+                        Immerse yourself in intuitive visual representations of your infrastructure, providing a clear and comprehensive overview of its components, connections, and dependencies. Easily navigate through interactive diagrams and gain a deeper architectural understanding of your infrastructure.
                      </Text>
                   </Flex>
                </Flex>
@@ -78,7 +78,7 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Uncover the intricate relationships between different components of your infrastructure through interactive mapping. Visualize how various elements interact and depend on each other, helping you identify potential bottlenecks, points of failure, or areas for optimization.,
+                        Uncover the intricate relationships between different components of your infrastructure through interactive mapping. Visualize how various elements interact and depend on each other, helping you identify potential bottlenecks, points of failure, or areas for optimization.
                      </Text>
                   </Flex>
                </Flex>
@@ -100,7 +100,7 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Observe real-time performance metrics and visualize them in dynamic charts and graphs. Monitor vital parameters such as CPU usage, memory consumption, network traffic, and storage utilization. Track performance trends, identify anomalies, and make informed decisions to optimize resource allocation and ensure optimal performance.,
+                        Observe real-time performance metrics and visualize them in dynamic charts and graphs. Monitor vital parameters such as CPU usage, memory consumption, network traffic, and storage utilization. Track performance trends, identify anomalies, and make informed decisions to optimize resource allocation and ensure optimal performance.
                      </Text>
                   </Flex>
                </Flex>
