@@ -22,13 +22,7 @@ export const Footer = () => {
                   },
                }}
             >
-               <Divider
-                  css={{
-                     mt: '$14',
-                     display: 'flex',
-                     justifyContent: 'center',
-                  }}
-               />
+               
                <Flex
                   //   justify={'between'}
                   align={'center'}
@@ -62,9 +56,72 @@ export const Footer = () => {
                         gap: '$6',
                      }}
                   >
-                     <Text span css={{color: '$accents8'}}>
-                        © Copyright 2023 InfraScope.AI.
-                     </Text>
+                                         <Flex
+                  css={{gap: '$5', w: '250px'}}
+                  direction={'column'}
+                  align={'center'}
+               >
+                  <Text h5>About</Text>
+                  <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
+                     <Box as={'li'}>
+                        <a href="https://www.linkedin.com/in/moinhc/">
+                        <Text span css={{color: '$accents8'}}>
+                           Who Are We?
+                        </Text>
+                        </a>
+                     </Box>
+                                 </Box>
+               </Flex>
+               <Flex
+                  css={{gap: '$5', w: '250px'}}
+                  direction={'column'}
+                  align={'center'}
+               >
+                  <Text h5>Social</Text>
+                  <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
+                     <Box as={'li'}>
+                        <a href="https://github.com/MoinChaudhry/InfraScope.ai">
+                           <Text span css={{color: '$accents8'}}>
+                              Github
+                           </Text> 
+                        </a>   
+                     </Box>
+                     
+                                 </Box>
+               </Flex>
+                     <Flex
+                  css={{gap: '$5', w: '250px'}}
+                  direction={'column'}
+                  align={'center'}
+               >
+                  <Text h5>Connect</Text>
+                  <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
+                     <Box as={'li'}>
+                     <a href={`mailto:${"chaudhrymoinh@infrascopeai.dev"}`}>
+                           <Text span css={{color: '$accents8'}}>
+                           Email
+                        </Text>
+                        </a>
+                     </Box>
+                                 </Box>
+               </Flex>
+               <Flex
+                  css={{gap: '$5', w: '250px'}}
+                  direction={'column'}
+                  align={'center'}
+               >
+                  <Text h5>Legal</Text>
+                  <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
+                     <Box as={'li'}>
+                     <a href={`mailto:${"chaudhrymoinh@infrascopeai.dev"}`}>
+                     <Text span css={{ color: '$accents8', whiteSpace: 'nowrap' }}>
+                           © Copyright 2023 InfraScope.AI.
+                        </Text>
+                        </a>
+                     </Box>
+                                 </Box>
+               </Flex>
+  
                   </Flex>
                </Flex>
             </Box>

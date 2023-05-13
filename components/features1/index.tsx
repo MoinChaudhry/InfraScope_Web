@@ -27,7 +27,7 @@ export const Features1 = () => {
             }}
          >
             <Flex direction="column">
-               <Text h3>Visualize</Text>
+               <Text h2>Visualize</Text>
                <Text
                   span
                   css={{
