@@ -57,28 +57,19 @@ export const Footer = () => {
                      }}
                   >
                                          <Flex
-                  css={{gap: '$5', w: '250px'}}
+                  css={{gap: '$5', w: '950px'}}
                   direction={'column'}
-                  align={'center'}
+                  align={'start'}
                >
-                  <Text h5>About</Text>
+                  <Text h5>Links</Text>
                   <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
                      <Box as={'li'}>
                         <a href="https://www.linkedin.com/in/moinhc/">
                         <Text span css={{color: '$accents8'}}>
-                           Who Are We?
+                           About Me
                         </Text>
                         </a>
                      </Box>
-                                 </Box>
-               </Flex>
-               <Flex
-                  css={{gap: '$5', w: '250px'}}
-                  direction={'column'}
-                  align={'center'}
-               >
-                  <Text h5>Social</Text>
-                  <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
                      <Box as={'li'}>
                         <a href="https://github.com/MoinChaudhry/InfraScope.ai">
                            <Text span css={{color: '$accents8'}}>
@@ -86,16 +77,6 @@ export const Footer = () => {
                            </Text> 
                         </a>   
                      </Box>
-                     
-                                 </Box>
-               </Flex>
-                     <Flex
-                  css={{gap: '$5', w: '250px'}}
-                  direction={'column'}
-                  align={'center'}
-               >
-                  <Text h5>Connect</Text>
-                  <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
                      <Box as={'li'}>
                      <a href={`mailto:${"chaudhrymoinh@infrascopeai.dev"}`}>
                            <Text span css={{color: '$accents8'}}>
@@ -103,15 +84,6 @@ export const Footer = () => {
                         </Text>
                         </a>
                      </Box>
-                                 </Box>
-               </Flex>
-               <Flex
-                  css={{gap: '$5', w: '250px'}}
-                  direction={'column'}
-                  align={'center'}
-               >
-                  <Text h5>Legal</Text>
-                  <Box as={'ul'} css={{gap: '$5', listStyle: 'none'}}>
                      <Box as={'li'}>
                      <a href={`mailto:${"chaudhrymoinh@infrascopeai.dev"}`}>
                      <Text span css={{ color: '$accents8', whiteSpace: 'nowrap' }}>
@@ -120,8 +92,7 @@ export const Footer = () => {
                         </a>
                      </Box>
                                  </Box>
-               </Flex>
-  
+                     </Flex>
                   </Flex>
                </Flex>
             </Box>
