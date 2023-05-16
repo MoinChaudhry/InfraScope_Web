@@ -27,7 +27,7 @@ export const Features1 = () => {
             }}
          >
             <Flex direction="column">
-               <Text h2>Visualize</Text>
+               <Text h3>Visualize</Text>
                <Text
                   span
                   css={{
@@ -91,7 +91,7 @@ export const Features1 = () => {
                   <BoxIcon />
                   <Flex direction={'column'}>
                      <Text h4 weight={'medium'}>
-                     Real-time Performance Visualization:
+                     Real-time Performance Metrics:
                      </Text>
                      <Text
                         span
@@ -100,7 +100,7 @@ export const Features1 = () => {
                            color: '$accents8',
                         }}
                      >
-                        Observe real-time performance metrics and visualize them in dynamic charts and graphs. Monitor vital parameters such as CPU usage, memory consumption, network traffic, and storage utilization. Track performance trends, identify anomalies, and make informed decisions to optimize resource allocation and ensure optimal performance.
+                        Observe real-time performance metrics and visualize them in dynamic charts and graphs. Monitor vital parameters such as CPU usage, memory consumption, network traffic, and storage utilization. Track performance trends, identify anomalies, and make informed decisions to optimize resource allocation and ensure optimal performance.,
                      </Text>
                   </Flex>
                </Flex>

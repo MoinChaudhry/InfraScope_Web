@@ -20,7 +20,7 @@ const Home: NextPage = () => {
   }, []);  return (
     <Layout>
       <Head>
-        <title>Your Website Title</title>
+        <title>InfraScope AI</title>
       </Head>
       <Nav />
       <Box as="main">
